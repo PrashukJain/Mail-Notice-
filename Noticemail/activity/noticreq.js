@@ -43,7 +43,9 @@ let allNoticesHtml="";
         let currentNOtice = `<tr><td>**${cNotice.Notice}</td> <td>${cNotice.Date}</td></tr>`
         allNoticesHtml += currentNOtice;
     }
+//replace
     html = html1.replace("{{template}}", allNoticesHtml);
         // console.log(html);
         emailLogic.sendEmail(html);
 }
+/
