@@ -1,0 +1,3664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  <meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no">
+  <link rel="icon" type="image/png" href="https://miet.ac.in/assets/frontend/images/favicon.png" />
+
+  <title>
+
+
+  </title>
+
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+
+  <meta name="generator" content="MIET" />
+  <meta name="audience" content="all">
+  <meta name="revisit-after" content="4 days">
+  <meta name="content-Language" content="English">
+  <meta name="distribution" content="global">
+  <meta name="robots" content="All">
+  <link href="https://miet.ac.in/assets/frontend/css/bootstrap.css" rel="stylesheet">
+  <link href="https://miet.ac.in/assets/frontend/css/font-awesome.css" rel="stylesheet">
+  <link href="https://miet.ac.in/assets/frontend/css/school-style.css" rel="stylesheet">
+  <link href="https://miet.ac.in/assets/frontend/css/groupcollege-responsive.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+  <script src="https://miet.ac.in/assets/frontend/tab/SpryTabbedPanels.js" type="text/javascript"></script>
+  <link href="https://miet.ac.in/assets/frontend/tab/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+  <link href="https://miet.ac.in/assets/frontend/css/site-icons.css" rel="stylesheet">
+  <link href="https://miet.ac.in/assets/frontend/css/jquery.mobile-menu.css" rel="stylesheet">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-78678663-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-78678663-1');
+  </script>
+
+  <style>
+    .marquee-with-options {
+      float: right;
+      width: 100%;
+      margin: 0;
+      background: #f2f2f2;
+      height: 50px;
+      overflow: hidden;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+    .marquee-with-options span {
+      float: left;
+      width: 200px;
+      height: 50px;
+      background: #ea232a;
+      color: #fff;
+      font-family: 'PT Serif', serif;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 50px;
+      text-align: center;
+    }
+
+    .marquee-with-options p img {
+      width: 25px;
+      margin-right: 5px;
+    }
+
+    marquee {
+      float: right;
+      width: 83%;
+    }
+
+    .a {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 35px;
+      border: solid 1.4px #fff;
+      width: 125px;
+      margin: 0 auto;
+      height: 32px;
+      border-radius: 37px;
+      line-height: 27px;
+      color: #fff;
+      font-weight: 500;
+      font-size: 14px;
+      transition: all .5s ease;
+      -webkit-transition: all .5s ease;
+      -moz-transition: all .5s ease;
+      -o-transition: all .5s ease;
+    }
+
+    .blink-btn {
+      width: 195px;
+      height: 36px;
+      top: 54%;
+      position: fixed;
+      right: -35px;
+      z-index: 1000;
+      margin-right: -45px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      text-align: center;
+      -webkit-transform: rotate(270deg);
+      -moz-transform: rotate(270deg);
+      color: #fff;
+      background-color: red;
+      font-size: 14px;
+      line-height: 30px;
+      text-decoration: none;
+      -webkit-animation: blink5 0.7s linear infinite;
+      -moz-animation: blink5 0.7s linear infinite;
+      -ms-animation: blink5 0.7s linear infinite;
+      -o-animation: blink5 0.7s linear infinite;
+      animation: blink5 0.7s linear infinite;
+    }
+
+
+
+    .emailbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+
+    .emailemaildropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .emailemaildropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 100;
+    }
+
+    .emailemaildropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .emailemaildropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .emailemaildropdown:hover .emailemaildropdown-content {
+      display: block;
+    }
+
+    .emailemaildropdown:hover .emailbtn {
+      background-color: #3e8e41;
+    }
+  </style>
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120211844-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120211844-1');
+  </script>
+
+</head>
+
+
+<body class="page-template-page-services">
+
+  <!--<a href="http://tour-india.ml/miet-meerut.cf" target="_blank"><div class="blink-btn">Virtual Tour</div></a>-->
+  <a href="http://miet.360-visit.in/" target="_blank">
+    <div class="blink-btn">Virtual Tour</div>
+  </a>
+
+  <a href="https://miet.ac.in/online-registration" target="_blank">
+    <div style="left:-80px;font-weight:bolder;" class="blink-btn">Online Registration 2020-21</div>
+  </a>
+
+  <div class="responsive-header">
+
+    <div id="overlay"></div>
+    <div id="page">
+      <div class="mm-toggle-wrap">
+        <div class="mm-toggle">
+          <i class="icon-menu" id='show-menu'></i>
+          <i class="icon-cancel" id="cancel-menu" style="display:none"></i>
+        </div>
+        <a href="https://miet.ac.in/">
+          <div class="res-logo">
+            <img src="https://miet.ac.in/assets/frontend/images/MIET_Logo.jpg" alt="">
+
+
+          </div>
+          <div class="text-logo">
+
+
+          </div>
+        </a>
+
+
+      </div>
+
+    </div>
+    <div id="mobile-menu">
+      <ul>
+
+        <li>
+          <div class="home">
+            <a href="https://miet.ac.in/" style="color: #fff;padding: 15px;"><i class="icon-home"></i>Home</a>
+          </div>
+        </li>
+
+
+
+
+
+        <li><a href="#">About</a>
+
+
+
+
+
+
+
+          <ul>
+
+
+
+            <li><a href="https://miet.ac.in/background">Background</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/vision-mission">Vision & Mission</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/chairman">Chairman Message </a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/vice-chairman">Vice Chairman</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/executive-director">Executive Director</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/board-of-governor">Board Of Governor</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/important-functionaries">Important Functionaries</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/accreditation">Accreditation</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/approval-affiliation">Approval & Affiliation</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/iqac">IQAC</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/committee">Committee</a>
+
+
+
+            </li>
+
+
+
+          </ul>
+        </li>
+
+
+
+        <li><a href="#">Programs</a>
+
+
+
+
+
+
+
+          <ul>
+
+
+
+            <li><a href="https://miet.ac.in/btech">B.Tech</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/pharmacy">B.Pharm</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/vocational-courses">Vocational Courses</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/applied-science-engineering">Applied Science Engineering</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/mtech">M.Tech</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/mpharm">M.Pharm</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/mca3">M.C.A.</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/mietb-school">MBA (MIET Business School)</a>
+
+
+
+            </li>
+
+
+
+          </ul>
+        </li>
+
+
+
+        <li><a href="#">Academics</a>
+
+
+
+
+
+
+
+          <ul>
+
+
+
+            <li><a href="https://miet.ac.in/research-papers">Research Papers</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/patents">Patents</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/international-connectmiet">International Connect@MIET</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/special-training">Special Trainings</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/academic-pedagogy">Academic Pedagogy</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/achievements">Achievements</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/research-development">Research & Development</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/industrial-interface">Industrial Interface</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/academic-calendar">Academic Calendar</a>
+
+
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/central-library">Library OPAC / Digital Library</a>
+
+
+
+            </li>
+
+
+
+          </ul>
+        </li>
+
+
+
+
+
+        <li><a href="#">Placements</a>
+
+
+
+
+
+
+
+          <ul>
+
+
+
+            <li><a href="https://miet.ac.in/our-recruiters">Our Recruiters</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/reports-statistics">Reports & Statistics</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/why-miet">Why @ MIET</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/contact-us">Placement Office Contact</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/placementnews">Placed Students List</a>
+
+            </li>
+
+
+
+          </ul>
+        </li>
+
+
+
+        <li><a href="#">Students</a>
+
+
+
+
+
+
+
+          <ul>
+
+
+
+            <li><a href="https://miet.ac.in/social-service">Social Service</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/student-satisfaction-survey">Student Satisfaction Survey</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/proctorial-board">Proctorial Board</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/rules-regulation">Rules & Regulation</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/operating-procedures">Operating Procedures</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/anti-ragging-squad">Anti Ragging & Squad</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/techspardha">Techspardha</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/kolaahal">Kolaahal</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/club-society">Club & Society</a>
+
+            </li>
+
+
+
+          </ul>
+        </li>
+
+
+
+        <li><a href="#">Facilities</a>
+
+
+
+
+
+
+
+          <ul>
+
+
+
+            <li><a href="https://miet.ac.in/system-procedure-of-maintenance">Procedure of Maintenance</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/computational-facilities">Computational Facilities</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/transport">Transport</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/hostel">Hostel</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/medical">Medical</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/faculty-residence-guest-house">Faculty Residence & Guest House</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/other-facility">Other Facility</a>
+
+            </li>
+
+
+
+          </ul>
+        </li>
+
+
+
+        <li><a href="#">Admission</a>
+
+
+
+
+
+
+
+          <ul>
+
+
+
+            <li><a href="https://miet.ac.in/fee-refund-norms">Fee Refund Norms</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/fee-details">Fee Details</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/admission-cell">Admission Cell</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/online-registration">Online Registration</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/documents-required">Documents Required</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/courses-offered">Courses Offered</a>
+
+            </li>
+
+
+
+          </ul>
+        </li>
+
+
+
+        <li><a href="#">Academics</a>
+
+
+
+
+
+
+
+          <ul>
+
+
+
+            <li><a href="https://miet.ac.in/research-papers">Research Papers</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/patents">Patents</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/international-connectmiet">International Connect@MIET</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/special-training">Special Trainings</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/academic-pedagogy">Academic Pedagogy</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/achievements">Achievements</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/research-development">Research & Development</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/industrial-interface">Industrial Interface</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/academic-calendar">Academic Calendar</a>
+
+            </li>
+
+
+
+
+            <li><a href="https://miet.ac.in/central-library">Library OPAC / Digital Library</a>
+
+            </li>
+
+
+
+          </ul>
+        </li>
+
+
+
+
+
+        <li><a href="#">Admission Enquiry</a>
+          <ul>
+
+            <li><a href="">9927439439</a></li>
+
+          </ul>
+        </li>
+
+
+        <li><a href="#">Group Institutions</a>
+          <ul>
+
+            <li><a href="http://www.mietgroup.ac.in/" target="_blank">MIET Group</a></li>
+            <li><a href="http://www.miet.ac.in/" target="_blank">MIET Meerut</a></li>
+
+            <li><a href="http://www.mitmeerut.ac.in/" target="_blank">MIT Meerut</a></li>
+            <li><a href="http://mietkumaon.ac.in/" target="_blank">MIET Kumaon</a></li>
+            <li><a href="http://mietedu.ac.in" target="_blank">MIET Biotechnology</a></li>
+            <li><a href="http://mietedu.com/" target="_blank">MIET Education</a></li>
+            <li><a href="http://mitedu.ac.in" target="_blank">MIT Professional Courses</a></li>
+
+            <li><a href="http://www.mietgroup.ac.in/pressmedia" target="_blank">Press & Media</a></li>
+
+          </ul>
+        </li>
+        <!--<li><a href="#" >Top Links</a>
+
+
+<ul>
+
+	
+
+
+       </ul>
+
+
+
+
+</li>-->
+
+
+
+        <li><a href="https://miet.ac.in/gallerys">Life @ MIET</a></li>
+
+        <li><a href="http://www.mietgroup.ac.in/pressmedia">Press & Media</a></li>
+        <li><a href="https://miet.ac.in/contact">Contact Us</a></li>
+        <!--<li><a href="emagazine/"><img src="https://miet.ac.in/assets/magazine.png" style="width:44px;height:32px;"/><img src="https://miet.ac.in/newicon.gif" /></a></li>-->
+        <li>
+
+
+          <div class="social1">
+
+            <a href="https://www.facebook.com/MIETGROUP" target="_blank"><i class="icon-facebook-squared"></i></a>
+            <a href="https://twitter.com/mietmeerut" target="_blank"><i class="icon-twitter-squared"></i></a>
+            <a href="https://www.youtube.com/channel/UCkoMkDAf-tTk23C9bGjLdrA" target="_blank"><i
+                class="icon-youtube-play"></i></a>
+            <a href="https://www.instagram.com/mietmeerut" target="_blank"><i class="fa fa-instagram"
+                style=" margin-top: 5px;"></i></a>
+            <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFeK5Wq-Iaq0AAAAWFQE13w4E_TxXAAmDam9XgEEZ1tP4BJtjXpKapFAvGW-qJG2lStmv-hdbmz9x5YHSk3df21zkAgdyL5dIHLlMqm3vT8j7dzwozP9l0fiVIgc2dp51DDy-o=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fschool%2Fmietgroup%2F"
+              target="_blank"><i class="icon-linkedin-squared" style=" margin-top: 5px;"></i></a>
+
+
+          </div>
+        </li>
+
+
+
+      </ul>
+    </div> <!-- /#rmm   -->
+
+  </div>
+  <!--responsiveheader-->
+
+
+  <section>
+
+
+    <div class="md-modal-two  md-effect-3" id="modal-63">
+
+      <div class="md-close">
+        x</div>
+      <br clear="all" />
+      <h4>
+        ALUMNI CONNECT</h4>
+
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSc258voagvwA9zSnOMJFnjQ5vWpdnz-fA19gihhxPi7Nr5Oug/viewform"
+        target="_blank">
+        <div class="almuni-button">Join Alumni Network</div>
+      </a>
+
+
+    </div>
+    <div class="md-overlay">
+      &nbsp;</div>
+
+    <div class="row top-header">
+
+
+
+      <div class="top-strip">
+        <div class="wrapper">
+          <div class="top-menu">
+
+
+
+            <!--  <div class="dropdown" style="float:left;color:white; padding-top:8px; padding-right:10px;">
+  <span>Staff stroke student</span>
+  <div class="dropdown-content" >
+   <p><a  href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default&amp;hd=miet.ac.in&amp;service=mail&amp;sacu=1&amp;rip=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin" target="_blank">EMAIL</a></p>
+    <p style="float:left;"><a    class="dropdown-item"  href="http://182.71.247.3/MIETWebClient/jsps/login.jsp" target="_blank">ERP</a></p>
+  </div>
+</div>-->
+
+
+            <style>
+              #mietli {
+                margin-top: 5px;
+                padding: 0px 5px;
+                height: 30px;
+                line-height: 30px;
+                font-family: verdana;
+                font-size: 12px;
+                font-weight: 600;
+                background-color: #ea232a;
+                color: white;
+                float: left;
+                text-align: left;
+                list-style-type: none;
+
+              }
+
+              #mietul #mietul1 {
+                margin-left: 0px;
+                display: none;
+
+                //background-color:yellow;
+              }
+
+              a {
+                color: black;
+                text-decoration: none;
+
+              }
+
+              #mietul #mietli #mietul1 #mietli1 {
+                width: 180px;
+                border-bottom: 1px solid lightgray;
+                padding-left: 4px;
+                position: relative;
+                text-align: left;
+                color: white;
+                font-weight: 600;
+                margin-left: 0px;
+                background-color: red;
+              }
+
+              #mietul #mietli:hover #mietul1 {
+                display: block !important;
+                top: 100%;
+                position: absolute;
+                z-index: 99;
+              }
+
+              #mietul #mietli #mietul1 #mietli1:hover {
+                background-color: gray;
+                color: white;
+              }
+
+              #mietul #mietli #mietul1 #mietli1 a:hover {
+                background-color: gray;
+                color: white;
+
+              }
+            </style>
+            <ul id="mietul">
+              <li id="mietli" style="background-color:yellow;"><a href="dean-academics-message"
+                  style="font-weight:600;border:0px;color:black;">DEAN ACADEMICS MSG</a><img
+                  src="https://miet.ac.in/assets/newicon.gif" /></li>
+              <li id="mietli">Staff / Student
+                <ul id="mietul1">
+
+                  <li id="mietli1"><a
+                      href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default&amp;hd=miet.ac.in&amp;service=mail&amp;sacu=1&amp;rip=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin"
+                      target="_blank" id="gg" style="font-weight:600;border:0px;">EMAIL LOGIN</a></li>
+                  <li id="mietli1"><a href="http://182.71.247.3/MIETWebClient/jsps/login.jsp" target="_blank" id="gg"
+                      style="font-weight:600;border:0px;">ERP LOGIN</a></li>
+                </ul>
+              </li>
+              <li id="mietli">Accreditation
+                <ul id="mietul1">
+
+                  <li id="mietli1"><a href="assets/Extended Profile Templates Final.xls" target="_blank" id="gg"
+                      style="font-weight:600;border:0px;">NAAC B++</a></li>
+                  <li id="mietli1"><a href="" id="gg" style="font-weight:600;border:0px;">NBA (BT, EC, IT &amp;
+                      B.Pharm)</a></li>
+                  <li id="mietli1"><a href="nirf" id="gg" style="font-weight:600;border:0px;">NIRF 2020 </a> <img
+                      src="https://miet.ac.in/assets/newicon.gif" /></li>
+
+
+                </ul>
+              </li>
+              <li id="mietli">Innovation
+                <ul id="mietul1">
+                  <li id="mietli1"><a href="" style="font-weight:600;border:0px;">Entrepreneurship</a></li>
+                  <li id="mietli1"><a href="" style="font-weight:600;border:0px;">Innovation</a></li>
+                </ul>
+              </li>
+              <li id="mietli" style="background-color:yellow;color:black;">Admission Helpline: 9927-439-439</li>
+              <li id="mietli"><a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSc258voagvwA9zSnOMJFnjQ5vWpdnz-fA19gihhxPi7Nr5Oug/viewform"
+                  target="_blank" style="font-weight:600;border:0px;">Alumni</a></li>
+              <li id="mietli"><a href="career" style="font-weight:600;border:0px;">Career</li>
+              <!--<li id="mietli"><a href="assets/uploads/campus-map.jpg" target="_blank" style="font-weight:600;border:0px;">Campus Map</li>-->
+              <li id="mietli"><a href="fee-payment" style="font-weight:600;border:0px;">Fee Payment</li>
+              <li id="mietli"><a href="contact" style="font-weight:600;border:0px;">Contact us</a></li>
+            </ul>
+
+
+            <p>
+
+
+
+              <a href="https://www.facebook.com/MIETGROUP" target="_blank"><img
+                  src="https://miet.ac.in/assets/frontend/images/facebook (2).png"></a>
+              <a href="https://twitter.com/mietmeerut" target="_blank"><img
+                  src="https://miet.ac.in/assets/frontend/images/twitter-logo.png"></a>
+
+              <a href="https://www.youtube.com/channel/UCkoMkDAf-tTk23C9bGjLdrA" target="_blank"><img
+                  src="https://miet.ac.in/assets/frontend/images/youtube-rounded-square-logo.png"></a>
+              <a href="https://www.instagram.com/mietmeerut" target="_blank"><img
+                  src="https://miet.ac.in/assets/frontend/images/instagram.png"></a>
+
+
+              <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFeK5Wq-Iaq0AAAAWFQE13w4E_TxXAAmDam9XgEEZ1tP4BJtjXpKapFAvGW-qJG2lStmv-hdbmz9x5YHSk3df21zkAgdyL5dIHLlMqm3vT8j7dzwozP9l0fiVIgc2dp51DDy-o=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fschool%2Fmietgroup%2F"
+                target="_blank"><img src="https://miet.ac.in/assets/frontend/images/linkedin.png"></a>
+
+            <div style="border: none;float: right; padding-right: 0;">
+              <a href="https://miet.ac.in/transport-registration" target="_blank" style="padding: 0 10px;float:right;">
+                <img src="https://miet.ac.in/assets/bus.png"
+                  style=" height: 80px;width: auto;position: absolute;top: 5px;right: -73px;" /></a></div>
+            </p>
+
+
+
+
+          </div>
+          <!--top-menu-->
+        </div>
+        <!--wrapper-->
+
+      </div>
+      <!--top-strip-->
+
+
+      <div class="col-md-12 col-xs-12 col-lg-12">
+        <div class="wrapper">
+          <div class="header-full-wrap">
+
+            <div class="header">
+              <div class="logo">
+                <a href="https://miet.ac.in/"><img src="https://miet.ac.in/assets/frontend/images/MIET_Logo.jpg"
+                    alt="MIET" class="logo-imm12" />
+                  <!--<img src="https://miet.ac.in/assets/frontend/images/logo.png" alt="" class="logo-imm1" />-->
+                  <div class="text-logo">
+                    <h2></h2>
+
+
+                  </div>
+
+                </a>
+
+              </div>
+              <!--logo-->
+
+              <div class="menu">
+                <ul>
+
+
+
+                  <li class="hover-tab"><a href="#" style="font-weight:bolder;">About</a>
+
+
+
+                    <div class="hover-div">
+                      <div class="div1">
+
+                        <ul>
+
+                          <li><a href="https://miet.ac.in/background">Background</a></li>
+
+
+                          <li><a href="https://miet.ac.in/vision-mission">Vision & Mission</a></li>
+
+
+                          <li><a href="https://miet.ac.in/chairman">Chairman Message </a></li>
+
+
+                          <li><a href="https://miet.ac.in/vice-chairman">Vice Chairman</a></li>
+
+
+                          <li><a href="https://miet.ac.in/executive-director">Executive Director</a></li>
+
+                        </ul>
+
+
+
+                        <ul style="float:right;">
+
+                          <li><a href="https://miet.ac.in/board-of-governor">Board Of Governor</a></li>
+
+                          <li><a href="https://miet.ac.in/important-functionaries">Important Functionaries</a></li>
+
+                          <li><a href="https://miet.ac.in/accreditation">Accreditation</a></li>
+
+                          <li><a href="https://miet.ac.in/approval-affiliation">Approval & Affiliation</a></li>
+
+                          <li><a href="https://miet.ac.in/iqac">IQAC</a></li>
+
+                          <li><a href="https://miet.ac.in/committee">Committee</a></li>
+
+
+                        </ul>
+
+
+
+
+
+
+
+
+                        <p>Committed to impart better learning through value based education and practical acquisition
+                          of knowledge amongst the students.</p>
+
+
+                      </div>
+                      <!--div1-->
+
+
+                      <div class="div2">
+                        <img src="https://miet.ac.in/assets/uploads/about_menu.jpg" alt="MIET" />
+                      </div>
+                      <!--div2-->
+
+
+
+                    </div>
+                    <!--hover-div-->
+                  </li>
+
+
+
+                  <li class="hover-tab"><a href="https://miet.ac.in/programs" style="font-weight:bolder;">Programs</a>
+
+
+
+                    <div class="hover-div">
+                      <div class="div1">
+
+                        <ul>
+
+                          <li><a href="https://miet.ac.in/btech">B.Tech</a></li>
+
+
+                          <li><a href="https://miet.ac.in/pharmacy">B.Pharm</a></li>
+
+
+                          <li><a href="https://miet.ac.in/vocational-courses">Vocational Courses</a></li>
+
+
+                          <li><a href="https://miet.ac.in/applied-science-engineering">Applied Science Engineering</a>
+                          </li>
+
+                        </ul>
+
+
+
+                        <ul style="float:right;">
+
+                          <li><a href="https://miet.ac.in/mtech">M.Tech</a></li>
+
+                          <li><a href="https://miet.ac.in/mpharm">M.Pharm</a></li>
+
+                          <li><a href="https://miet.ac.in/mca3">M.C.A.</a></li>
+
+                          <li><a href="https://miet.ac.in/mietb-school">MBA (MIET Business School)</a></li>
+
+
+                        </ul>
+
+
+
+
+
+
+
+
+                        <p>A unique institution that provides an array of engineering and management courses to choose
+                          from.</p>
+
+
+                      </div>
+                      <!--div1-->
+
+
+                      <div class="div2">
+                        <img src="https://miet.ac.in/assets/uploads/departments-menu-img.jpg" alt="MIET" />
+                      </div>
+                      <!--div2-->
+
+
+
+                    </div>
+                    <!--hover-div-->
+                  </li>
+
+
+
+                  <li class="hover-tab"><a href="#" style="font-weight:bolder;">Academics</a>
+
+
+
+                    <div class="hover-div">
+                      <div class="div1">
+
+                        <ul>
+
+                          <li><a href="https://miet.ac.in/academic-pedagogy">Academic Pedagogy</a></li>
+
+
+                          <li><a href="https://miet.ac.in/achievements">Achievements</a></li>
+
+
+                          <li><a href="https://miet.ac.in/research-development">Research & Development</a></li>
+
+
+                          <li><a href="https://miet.ac.in/central-library">Library OPAC / Digital Library</a></li>
+
+                        </ul>
+
+
+
+                        <ul style="float:right;">
+
+                          <li><a href="https://miet.ac.in/research-papers">Research Papers</a></li>
+
+                          <li><a href="https://miet.ac.in/patents">Patents</a></li>
+
+                          <li><a href="https://miet.ac.in/international-connectmiet">International Connect@MIET</a></li>
+
+                          <li><a href="https://miet.ac.in/special-training">Special Trainings</a></li>
+
+                          <li><a href="https://miet.ac.in/industrial-interface">Industrial Interface</a></li>
+
+                          <li><a href="https://miet.ac.in/academic-calendar">Academic Calendar</a></li>
+
+
+                        </ul>
+
+
+
+
+
+
+
+
+                        <p>Creating a world of exploration, critical thinking and discovery for better knowledge and
+                          understanding .</p>
+
+
+                      </div>
+                      <!--div1-->
+
+
+                      <div class="div2">
+                        <img src="https://miet.ac.in/assets/uploads/academic-menu-img.jpg" alt="MIET" />
+                      </div>
+                      <!--div2-->
+
+
+
+                    </div>
+                    <!--hover-div-->
+                  </li>
+
+
+
+
+
+
+
+
+                  <li class="hover-tab"><a href="#" style="font-weight:bolder;">Placements</a>
+
+
+
+
+
+
+
+
+                    <div class="hover-div mr">
+                      <div class="div1 mright">
+                        <ul>
+
+                          <li><a href="https://miet.ac.in/our-recruiters"> Our Recruiters</a></li>
+
+
+                          <li><a href="https://miet.ac.in/reports-statistics"> Reports & Statistics</a></li>
+
+
+                          <li><a href="https://miet.ac.in/placementnews"> Placed Students List</a></li>
+
+                        </ul>
+
+                        <ul class="mright">
+
+                          <li><a href="why-miet"> Why @ MIET</a></li>
+
+                          <li><a href="contact-us"> Placement Office Contact</a></li>
+                        </ul>
+
+
+                        <p>
+                        <p>With the focus on industry specific knowledge, our students are placed in the top-notch
+                          organisations.</p>
+                        </p>
+
+
+
+
+                      </div>
+                      <!--div1-->
+
+                      <div class="div2">
+                        <img src="https://miet.ac.in/assets/uploads/oure-recru.jpg" alt="MIET" />
+                      </div>
+                      <!--div2-->
+
+                    </div>
+                    <!--hover-div-->
+                  </li>
+
+
+
+                  <li class="hover-tab"><a href="#" style="font-weight:bolder;">Students</a>
+
+
+
+
+
+
+
+
+                    <div class="hover-div mr">
+                      <div class="div1 mright">
+                        <ul>
+
+                          <li><a href="https://miet.ac.in/proctorial-board"> Proctorial Board</a></li>
+
+
+                          <li><a href="https://miet.ac.in/rules-regulation"> Rules & Regulation</a></li>
+
+
+                          <li><a href="https://miet.ac.in/operating-procedures"> Operating Procedures</a></li>
+
+
+                          <li><a href="https://miet.ac.in/anti-ragging-squad"> Anti Ragging & Squad</a></li>
+
+                        </ul>
+
+                        <ul class="mright">
+
+                          <li><a href="social-service"> Social Service</a></li>
+
+                          <li><a href="student-satisfaction-survey"> Student Satisfaction Survey</a></li>
+
+                          <li><a href="techspardha"> Techspardha</a></li>
+
+                          <li><a href="kolaahal"> Kolaahal</a></li>
+
+                          <li><a href="club-society"> Club & Society</a></li>
+                        </ul>
+
+
+                        <p>
+                        <p>At MIET, education is about more than earning a degree. Here, you'll be a part of enduring
+                          university traditions and have new experiences that you'll remember for a lifetime.</p>
+                        </p>
+
+
+
+
+                      </div>
+                      <!--div1-->
+
+                      <div class="div2">
+                        <img src="https://miet.ac.in/assets/uploads/student-drop.jpg" alt="MIET" />
+                      </div>
+                      <!--div2-->
+
+                    </div>
+                    <!--hover-div-->
+                  </li>
+
+
+
+                  <li class="hover-tab"><a href="#" style="font-weight:bolder;">Facilities</a>
+
+
+
+
+
+
+
+
+                    <div class="hover-div mr">
+                      <div class="div1 mright">
+                        <ul>
+
+                          <li><a href="https://miet.ac.in/computational-facilities"> Computational Facilities</a></li>
+
+
+                          <li><a href="https://miet.ac.in/transport"> Transport</a></li>
+
+
+                          <li><a href="https://miet.ac.in/hostel"> Hostel</a></li>
+
+
+                          <li><a href="https://miet.ac.in/medical"> Medical</a></li>
+
+
+                          <li><a href="https://miet.ac.in/other-facility"> Other Facility</a></li>
+
+                        </ul>
+
+                        <ul class="mright">
+
+                          <li><a href="system-procedure-of-maintenance"> Procedure of Maintenance</a></li>
+
+                          <li><a href="faculty-residence-guest-house"> Faculty Residence & Guest House</a></li>
+                        </ul>
+
+
+                        <p>
+                        <p>An environment which is specially created to provide all the state-of-art facilities for
+                          optimum comfort like home.</p>
+                        </p>
+
+
+
+
+                      </div>
+                      <!--div1-->
+
+                      <div class="div2">
+                        <img src="https://miet.ac.in/assets/uploads/facilities-menu.jpg" alt="MIET" />
+                      </div>
+                      <!--div2-->
+
+                    </div>
+                    <!--hover-div-->
+                  </li>
+
+
+
+                  <li class="hover-tab"><a href="#" style="font-weight:bolder;">Admission</a>
+
+
+
+
+
+
+
+
+                    <div class="hover-div mr">
+                      <div class="div1 mright">
+                        <ul>
+
+                          <li><a href="https://miet.ac.in/fee-details"> Fee Details</a></li>
+
+
+                          <li><a href="https://miet.ac.in/admission-cell"> Admission Cell</a></li>
+
+
+                          <li><a href="https://miet.ac.in/online-registration"> Online Registration</a></li>
+
+                        </ul>
+
+                        <ul class="mright">
+
+                          <li><a href="fee-refund-norms"> Fee Refund Norms</a></li>
+
+                          <li><a href="documents-required"> Documents Required</a></li>
+
+                          <li><a href="courses-offered"> Courses Offered</a></li>
+                        </ul>
+
+
+                        <p>
+                        <p>Be a part of MIET because 'Whats starts here changes the world'. Make your mark with us.</p>
+                        </p>
+
+
+
+
+                      </div>
+                      <!--div1-->
+
+                      <div class="div2">
+                        <img src="https://miet.ac.in/assets/uploads/admission-menu-img.jpg" alt="MIET" />
+                      </div>
+                      <!--div2-->
+
+                    </div>
+                    <!--hover-div-->
+                  </li>
+
+
+
+                  <li class="hover-tab"><a href="#" style="font-weight:bolder;"></a>
+
+
+
+
+
+
+
+
+                    <div class="hover-div mr">
+                      <div class="div1 mright">
+                        <ul>
+
+                          <li><a href="https://miet.ac.in/academic-pedagogy"> Academic Pedagogy</a></li>
+
+
+                          <li><a href="https://miet.ac.in/achievements"> Achievements</a></li>
+
+
+                          <li><a href="https://miet.ac.in/research-development"> Research & Development</a></li>
+
+
+                          <li><a href="https://miet.ac.in/central-library"> Library OPAC / Digital Library</a></li>
+
+                        </ul>
+
+                        <ul class="mright">
+
+                          <li><a href="research-papers"> Research Papers</a></li>
+
+                          <li><a href="patents"> Patents</a></li>
+
+                          <li><a href="international-connectmiet"> International Connect@MIET</a></li>
+
+                          <li><a href="special-training"> Special Trainings</a></li>
+
+                          <li><a href="industrial-interface"> Industrial Interface</a></li>
+
+                          <li><a href="academic-calendar"> Academic Calendar</a></li>
+                        </ul>
+
+
+                        <p>
+                        <p>Creating a world of exploration, critical thinking and discovery for better knowledge and
+                          understanding .</p>
+                        </p>
+
+
+
+
+                      </div>
+                      <!--div1-->
+
+                      <div class="div2">
+                        <img src="https://miet.ac.in/assets/uploads/academic-menu-img.jpg" alt="MIET" />
+                      </div>
+                      <!--div2-->
+
+                    </div>
+                    <!--hover-div-->
+                  </li>
+
+
+                  <!--start of new code by rahul -->
+                  <!--<li ><a href="#"  style="font-weight:bolder;">E-Magazine</a>
+</li>-->
+                  <!-- END of new code by rahul -->
+                  <li><a href="gallerys" style="font-weight:bolder;">Life @ MIET</a></li>
+                  <li><a href="http://mietgroup.ac.in/pressmedia" style="font-weight:bolder;">Media</a></li>
+
+                </ul>
+
+
+              </div>
+              <!--menu-->
+
+              <div class="menu" style="display:none;">
+                <ul>
+
+
+                  <li class="tab"><a href="#">About</a>
+                    <div class="ul ull-new">
+
+                      <ul>
+
+                        <li><a href="https://miet.ac.in/background">Background</a></li>
+
+
+                        <li><a href="https://miet.ac.in/vision-mission">Vision & Mission</a></li>
+
+
+                        <li><a href="https://miet.ac.in/chairman">Chairman Message </a></li>
+
+
+                        <li><a href="https://miet.ac.in/vice-chairman">Vice Chairman</a></li>
+
+
+                        <li><a href="https://miet.ac.in/executive-director">Executive Director</a></li>
+
+
+                        <li><a href="https://miet.ac.in/board-of-governor">Board Of Governor</a></li>
+
+
+                        <li><a href="https://miet.ac.in/important-functionaries">Important Functionaries</a></li>
+
+
+                        <li><a href="https://miet.ac.in/accreditation">Accreditation</a></li>
+
+
+                        <li><a href="https://miet.ac.in/approval-affiliation">Approval & Affiliation</a></li>
+
+
+                        <li><a href="https://miet.ac.in/iqac">IQAC</a></li>
+
+
+                        <li><a href="https://miet.ac.in/committee">Committee</a></li>
+
+
+                      </ul>
+
+
+                    </div>
+                    <!--ul-->
+                  </li>
+
+
+                  <li class="tab"><a href="https://miet.ac.in/programs">Programs</a>
+                    <div class="ul ull-new">
+
+                      <ul>
+
+                        <li><a href="https://miet.ac.in/btech">B.Tech</a></li>
+
+
+                        <li><a href="https://miet.ac.in/pharmacy">B.Pharm</a></li>
+
+
+                        <li><a href="https://miet.ac.in/vocational-courses">Vocational Courses</a></li>
+
+
+                        <li><a href="https://miet.ac.in/applied-science-engineering">Applied Science Engineering</a>
+                        </li>
+
+
+                        <li><a href="https://miet.ac.in/mtech">M.Tech</a></li>
+
+
+                        <li><a href="https://miet.ac.in/mpharm">M.Pharm</a></li>
+
+
+                        <li><a href="https://miet.ac.in/mca3">M.C.A.</a></li>
+
+
+                        <li><a href="https://miet.ac.in/mietb-school">MBA (MIET Business School)</a></li>
+
+
+                      </ul>
+
+
+                    </div>
+                    <!--ul-->
+                  </li>
+
+
+                  <li class="tab"><a href="#">Academics</a>
+                    <div class="ul ull-new">
+
+                      <ul>
+
+                        <li><a href="https://miet.ac.in/research-papers">Research Papers</a></li>
+
+
+                        <li><a href="https://miet.ac.in/patents">Patents</a></li>
+
+
+                        <li><a href="https://miet.ac.in/international-connectmiet">International Connect@MIET</a></li>
+
+
+                        <li><a href="https://miet.ac.in/special-training">Special Trainings</a></li>
+
+
+                        <li><a href="https://miet.ac.in/academic-pedagogy">Academic Pedagogy</a></li>
+
+
+                        <li><a href="https://miet.ac.in/achievements">Achievements</a></li>
+
+
+                        <li><a href="https://miet.ac.in/research-development">Research & Development</a></li>
+
+
+                        <li><a href="https://miet.ac.in/industrial-interface">Industrial Interface</a></li>
+
+
+                        <li><a href="https://miet.ac.in/academic-calendar">Academic Calendar</a></li>
+
+
+                        <li><a href="https://miet.ac.in/central-library">Library OPAC / Digital Library</a></li>
+
+
+                      </ul>
+
+
+                    </div>
+                    <!--ul-->
+                  </li>
+
+
+
+
+                  <li class="tab"><a href="#">Placements</a>
+                    <div class="ul ull-new left-mmm">
+
+                      <ul>
+
+                        <li><a href="https://miet.ac.in/our-recruiters">Our Recruiters</a></li>
+
+
+                        <li><a href="https://miet.ac.in/reports-statistics">Reports & Statistics</a></li>
+
+
+                        <li><a href="https://miet.ac.in/why-miet">Why @ MIET</a></li>
+
+
+                        <li><a href="https://miet.ac.in/contact-us">Placement Office Contact</a></li>
+
+
+                        <li><a href="https://miet.ac.in/placementnews">Placed Students List</a></li>
+
+
+                      </ul>
+
+
+                    </div>
+                    <!--ul-->
+                  </li>
+
+
+                  <li class="tab"><a href="#">Students</a>
+                    <div class="ul ull-new left-mmm">
+
+                      <ul>
+
+                        <li><a href="https://miet.ac.in/social-service">Social Service</a></li>
+
+
+                        <li><a href="https://miet.ac.in/student-satisfaction-survey">Student Satisfaction Survey</a>
+                        </li>
+
+
+                        <li><a href="https://miet.ac.in/proctorial-board">Proctorial Board</a></li>
+
+
+                        <li><a href="https://miet.ac.in/rules-regulation">Rules & Regulation</a></li>
+
+
+                        <li><a href="https://miet.ac.in/operating-procedures">Operating Procedures</a></li>
+
+
+                        <li><a href="https://miet.ac.in/anti-ragging-squad">Anti Ragging & Squad</a></li>
+
+
+                        <li><a href="https://miet.ac.in/techspardha">Techspardha</a></li>
+
+
+                        <li><a href="https://miet.ac.in/kolaahal">Kolaahal</a></li>
+
+
+                        <li><a href="https://miet.ac.in/club-society">Club & Society</a></li>
+
+
+                      </ul>
+
+
+                    </div>
+                    <!--ul-->
+                  </li>
+
+
+                  <li class="tab"><a href="#">Facilities</a>
+                    <div class="ul ull-new left-mmm">
+
+                      <ul>
+
+                        <li><a href="https://miet.ac.in/system-procedure-of-maintenance">Procedure of Maintenance</a>
+                        </li>
+
+
+                        <li><a href="https://miet.ac.in/computational-facilities">Computational Facilities</a></li>
+
+
+                        <li><a href="https://miet.ac.in/transport">Transport</a></li>
+
+
+                        <li><a href="https://miet.ac.in/hostel">Hostel</a></li>
+
+
+                        <li><a href="https://miet.ac.in/medical">Medical</a></li>
+
+
+                        <li><a href="https://miet.ac.in/faculty-residence-guest-house">Faculty Residence & Guest
+                            House</a></li>
+
+
+                        <li><a href="https://miet.ac.in/other-facility">Other Facility</a></li>
+
+
+                      </ul>
+
+
+                    </div>
+                    <!--ul-->
+                  </li>
+
+
+                  <li class="tab"><a href="#">Admission</a>
+                    <div class="ul ull-new left-mmm">
+
+                      <ul>
+
+                        <li><a href="https://miet.ac.in/fee-refund-norms">Fee Refund Norms</a></li>
+
+
+                        <li><a href="https://miet.ac.in/fee-details">Fee Details</a></li>
+
+
+                        <li><a href="https://miet.ac.in/admission-cell">Admission Cell</a></li>
+
+
+                        <li><a href="https://miet.ac.in/online-registration">Online Registration</a></li>
+
+
+                        <li><a href="https://miet.ac.in/documents-required">Documents Required</a></li>
+
+
+                        <li><a href="https://miet.ac.in/courses-offered">Courses Offered</a></li>
+
+
+                      </ul>
+
+
+                    </div>
+                    <!--ul-->
+                  </li>
+
+
+                  <li class="tab"><a href="#">Academics</a>
+                    <div class="ul ull-new left-mmm">
+
+                      <ul>
+
+                        <li><a href="https://miet.ac.in/research-papers">Research Papers</a></li>
+
+
+                        <li><a href="https://miet.ac.in/patents">Patents</a></li>
+
+
+                        <li><a href="https://miet.ac.in/international-connectmiet">International Connect@MIET</a></li>
+
+
+                        <li><a href="https://miet.ac.in/special-training">Special Trainings</a></li>
+
+
+                        <li><a href="https://miet.ac.in/academic-pedagogy">Academic Pedagogy</a></li>
+
+
+                        <li><a href="https://miet.ac.in/achievements">Achievements</a></li>
+
+
+                        <li><a href="https://miet.ac.in/research-development">Research & Development</a></li>
+
+
+                        <li><a href="https://miet.ac.in/industrial-interface">Industrial Interface</a></li>
+
+
+                        <li><a href="https://miet.ac.in/academic-calendar">Academic Calendar</a></li>
+
+
+                        <li><a href="https://miet.ac.in/central-library">Library OPAC / Digital Library</a></li>
+
+
+                      </ul>
+
+
+                    </div>
+                    <!--ul-->
+                  </li>
+
+
+
+                  <li><a href="https://miet.ac.in/gallerys">Life @ Miet</a></li>
+
+
+                </ul>
+              </div>
+              <!--menu-->
+
+
+
+
+            </div>
+            <!--header-->
+          </div>
+          <!--header-full-wrap-->
+
+        </div>
+        <!--wrapper-->
+      </div>
+      <!--col-md-12 col-xs-12 col-lg-12-->
+    </div>
+    <!--row-->
+
+    <!-- <a href="admission-cell" target="_blank"><img src="https://miet.ac.in/assets/frontend/images/Admission-Enquiry-img.gif" height="100" style="z-index:1;background-color:black;position:fixed;left:0;width:250px;top:180px;opacity:0.5;"></img></a>-->
+
+
+  </section>
+  <section>
+    <div class="row  inner-banner-section">
+      <img src="https://miet.ac.in/assets/frontend/images/college-banner.jpg" alt="MIET" />
+
+      <h2>News Drives</h2>
+
+
+    </div>
+    <!--row-->
+  </section>
+
+
+
+
+  <section>
+    <div class="row section">
+      <div class="wrapper">
+
+        <div class="sidebar">
+
+          <!--<h2>About us</h2>-->
+
+          <ul>
+
+            <li><a href="http://miet.ac.in/extracircular">Extra Curricular</a></li>
+
+
+            <li><a href="https://miet.ac.in/placementnews">Placement News</a></li>
+            <li><a href="https://miet.ac.in/offcampus">Offcampus</a></li>
+            <li><a href="https://miet.ac.in/contest">Contest</a></li>
+            <li><a href="https://miet.ac.in/set">Set</a></li>
+            <li><a href="https://miet.ac.in/higher">Higher</a></li>
+
+
+
+          </ul>
+        </div>
+        <!--sidebar-->
+
+
+
+        <div class="content-part">
+
+          <div class="top-line"></div>
+          <!--top-line-->
+          <h4>News Drives</h4>
+
+
+          <table>
+            <thead>
+              <tr>
+                <td><b>Date</b></td>
+                <td><b> News</b></td>
+                <td><b>Category</b></td>
+              </tr>
+            </thead>
+            <tbody>
+
+
+              <tr>
+                <td>22Jun2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/216">IEEE International Virtual Conference on Advances in
+                    Computing & Communication Engineering (ICACCE-2020) @ MIET</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>08Jun2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/219">Webinar on Internet of Things (IOT) - Concepts and
+                    Opportunities on 8th June 2020</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>30May2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/217">Webinar: Shri Mahesh Munjal, 30/05/2020 @ 3:00PM, Self
+                    Management Essentials</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>29May2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/218">MAKE YOUR ARTICLE A REALITY SEE(SOCIETY OF ELECTRONICS
+                    ENGINEERS) MIET, MEERUT ALONG WITH TEAM ANNIHILATORS GOING TO ORGANIZE AN ARTICLE WRITING
+                    COMPETITION. Last Date of Submission: 30 May 2020</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>25May2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/215">Webinar on Cloud Computing - Concepts and Opportunities
+                    on 24-May-2020 organized by MCA Dept,- Register Now</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>17May2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/214">Call for Papers 8th International Conference of Advance
+                    Research and Innovation (ICARI-2021)</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>15May2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/213">Schedule of E-Lecture Series On Role of Microbiology
+                    and Biotechnology in Today's world</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>13May2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/212">Congratulations Sudhansh Maheshwari (ME-VIII SEM)</a>
+                </td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>04May2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/210">Information Security Awareness for students</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>04May2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/211">Donate & Learn giveaway 250+ paid online courses for
+                    free</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>30Apr2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/208">SAP Offers a New Digital Learning Initiative - Free
+                    Certification for Academic Students</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>28Apr2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/207">Congratulation to Ansh Gupta (B.Tech EE) on secured the
+                    First position in "National Engineering Olympiad 2.0"</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>25Apr2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/206">Invitation for MIET-AIMA BIZ online introduction
+                    Session</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>22Apr2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/209">Dean Academics message for their beloved students</a>
+                </td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>11Mar2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/201">NAMASTE MEERUT campaign launched By MIET Meerut
+                    students</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>07Mar2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/202"> Department of ECE & IT got NBA accredited for 3 year
+                    (2020-21 to 2022-23)</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>03Mar2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/200">Congratulations to Dr. Tushar Jain Sir on winning award
+                    for Innovative Research</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>02Mar2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/199">Congratulations to Vartit Garg on winning of the AGBA
+                    Aegis Graham Bell Award 2019</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>26Feb2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/198">Congratulations to Yash Swaroop from BTECH CSE VI sem
+                    won cash reward Rs 10000 from AIRTEL PRIVATE BUG BOUNTY EVENT</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>25Feb2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/197"><b>3rd International Conference on Big Data and
+                      Computational Intelligence (ICBDCI) March 20-21, 2020, MIET, Meerut, INDIA</b></a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>24Feb2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/196">AIMA Management Fest 2020 in Collaboration with Miet
+                    business School on 3<sup>rd</sup> & 4<sup>th</sup> March at Miet</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>04Feb2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/194">KOLAAHAL 2020 - THE MUTINY CONTINUES ... on 13-15 Feb
+                    2020</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>18Jan2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/192">MIET Mobile Clinic at Dimoli village</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>02Jan2020</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/191">One Week Faculty Development Program on “Industry 4.0:
+                    The Application of Artificial Intelligence & Mechatronics” 20th – 24th January, 2020</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>19Dec2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/190">Smart India Hackathon 2020</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>17Dec2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/189">Workshop on Cyber Crime at S.M. College, Bhagalpur
+                    (Bihar) conducted by MIET</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>05Dec2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/188">Scholarships are provided to students belonging to
+                    economically weaker sections of society </a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>05Dec2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/187">Congratulations Dr. Nitin Sharma</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>30Nov2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/185"> Congratulations to Amit Kumar for winning Europe trip
+                    (Copenhagen, denmark) for attending TechBBQ conference.</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>30Nov2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/186">Alumni Meet on 22 December 2019 for batch (1999-2003,
+                    2000-2004 and 2001-2004)</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>29Nov2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/184"><b style="color:green;">Congratulations MIETians For
+                      Winning state level awards in AKTU Technical, Management and Literary Fest - 2019</b></a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>29Nov2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/183"><b style="color:red;">Congratulations MIETians for
+                      winning Zonal level Gold medal in AKTU Technical, Management and Literary Fest - 2019</b></a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>25Nov2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/182">SUMMER RESEARCH PROGRAM @ ICTS - S. N. Bhatt Memorial
+                    Excellence Fellowship Program 2020</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>22Nov2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/181">International Conference of Advance Research and
+                    Innovation (ICARI-2020)</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>09Nov2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/180">Registration for GYANPRAVAH</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>19Aug2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/173">TCS Inframind Season 3 is open for registrations</a>
+                </td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>19Aug2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/174">Invitation to buoyanci Innovation Challenge 2019</a>
+                </td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>19Aug2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/175">Aarohan Social Innovation Awards 2019</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>19Jul2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/170">Workshop for School Teachers on Adobe spark</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>11Jul2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/169">Bus Registration Form</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>10Jul2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/164">Registration Form - Inspire Internship - 2019</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>04Jul2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/167">Registrations open for Pool Campus Drive @Just Dial
+                    Registration Mandatory, deadline 07th July'19</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>04Jul2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/168"><b style="color:green;">Number of options to pay your
+                      Fee for next semester</b></a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>04Jun2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/163">Fee Depositing Notice</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>01Jun2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/162">Salesforce Extravaganza - A Festival of Salesforce
+                    which will last for 15 Days at MIET 1st June to 15th June, 19</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>26May2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/161">MIT, Meerut - Mega Job Fair 1st June 2019 @ 50+
+                    companies from different sectors</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>25May2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/160">SAP BI Workshop on Business Analytics &
+                    Visualization</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>21May2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/159">FDP Details & Registration</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>18May2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/158">1 Day "Skill Upgradation Programme on Engine Management
+                    System and Emerging Technologies"</a></td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>01May2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/156">8 days FDP on “Universal Human Values & Professional
+                    Ethics” scheduled from 1st May to 8th May, 2019.</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>30Apr2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/157">SAP Meetup 30 April - Invitation for Event- Industry
+                    Academia Meetup</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>12Apr2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/152">Twelfth Post Graduate Course on Satellite Communication
+                    (SATCOM) – commencing from August 1, 2019 - April 30, 2020 will be conducted at SAC, Ahmedabad</a>
+                </td>
+                <td style="text-transform:uppercase;">Whatsnew</td>
+
+              </tr>
+
+              <tr>
+                <td>12Apr2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/153">Third Post Graduate Course on Global Navigation
+                    Satellite Systems (GNSS) – commencing from August 1, 2019 – April 30, 2020 will be conducted at SAC,
+                    Ahmedabad</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>27Mar2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/151">Capability Building Workshop on Case Writing 29-30
+                    March 2019</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>11Feb2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/149">Upsee UG/PG entrance exam notification </a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>09Feb2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/148"><a href=</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>24Jan2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/147"><b>MIET, Meerut - Mega Job Fair 2nd & 3rd Feb
+                      2019</b></a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>16Jan2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/144">Ministry of Defence is holding Aero India, 2019 from
+                    20th - 24th Feb, 2019 at Bengaluru</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>16Jan2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/143">ISRO RESPOND Program</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>05Jan2019</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/142">Round the year applications are invited from Faculty/
+                    Researcher/ Candidates currently working or having past experience in reputed foreign Institutes or
+                    universities</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>31Dec2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/141">Registration open for Winter Schools</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>10Dec2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/139">Registration open for 8 days Refresher workshop on
+                    “Universal Human Value & Professional Ethics” from 10th to 17th Dec., 2018</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>10Dec2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/140">Registration open for 8 days Faculty Development
+                    Program (FDP) on “Universal Human Values and Professional Ethics”(Level-1) from 26th Dec., 2018 to
+                    2nd Jan., 2019</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>30Nov2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/138"><b style=</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>27Oct2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/124"><b style='color:red;'>1st International Conference on
+                      MECHANICAL INNOVATIVE AND EMERGING TRENDS (MIET)</b></a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>17Oct2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/136">AKTU Zonals Sports Fest 2018</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>16Oct2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/135">SAP Hackathon on 25th October 2018 (Thursday) and
+                    SheInnovates - The Girls Lounge Inauguration 26th October 2018 (Friday)</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>11Oct2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/134"><b style='color:blue;'>International Conference on
+                      future Computing & Communication Technology from December 22,2018 at Meerut Institute of
+                      Engineering & Technology, Meerut</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>24Sep2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/133">Cloud Literacy Month-2018</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>18Sep2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/132">National Conference on</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>17Sep2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/131">TRAINER AIRCRAFT DRONE WORKSHOP ORGANISED BY MIET,
+                    MEERUT</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>04Sep2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/130">GLITZ Registration Open</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>03Sep2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/129">XXVI ANNUAL CONGRESS OF SOCIETY OF ANDROLOGY (26 -28
+                    Oct, 2018)</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>01Sep2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/128">Invitation for workshop (2-Sept.) for preparation of
+                    ROBOCHAMPS-2K18 </a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>30Aug2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/127"><b style='color:red;'>Registrations open for PMKVY
+                      Courses</b></a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>15Aug2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/126">IBPS - RECRUITMENT OF PROBATIONARY OFFICERS/ MANAGEMENT
+                    TRAINEES</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>10Aug2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/125"><b style='color:green;'>SAP Next-Gen LAB@MIET [Also
+                      updated on official SAP website (sap.com)]</b></a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>10Jul2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/122"><b style='color:red;'>Seminar on INNOVATION 18th July
+                      2018</b></a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>01Jul2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/123"><b style='color:red;'>ROBOCHAMP Registration
+                      Open</b></a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>22Jun2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/118"><b style='color:red;'>IDEATE'18 JUNIOR | IDEATE
+                      18</b></a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>21Jun2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/116">Notice for Depositing Fees</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>21Jun2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/117">Notice for Registration for Odd Semester 2018-19</a>
+                </td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>15Jun2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/114">Goldman Sachs - Women Engineers Campus Hiring
+                    Program</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>15Jun2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/107">5 days FDP on Wireless and Mobile Communication from
+                    15th -19th June 2018.</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>02Jun2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/111">Job Fair @ MIET on 5 Jun 2018</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>30May2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/110">2-Days FDP on Leadership Skills Level-2 (8th-9th June
+                    2018)</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>17May2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/112">NAIN 1.0</a></td>
+                <td style="text-transform:uppercase;">projectblog</td>
+
+              </tr>
+
+              <tr>
+                <td>17May2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/113">Intelligent Armor</a></td>
+                <td style="text-transform:uppercase;">projectblog</td>
+
+              </tr>
+
+              <tr>
+                <td>17May2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/109">Registration for Transport during summer ||
+                    Registration for Lodging & Boarding during summer</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>14May2018</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/108">List of Upcoming Summer Training Program 2018 in MIET,
+                    Meerut</a></td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>01Nov2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/103">Grant of $ 2,00,000 has been sanctioned by SIMIO
+                    Corporation USA.</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>04Oct2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/102">14 Days Hands on Training Program on Nano
+                    Biotechnology(4-17 Dec 2017)</a></td>
+                <td style="text-transform:uppercase;">noticecircular</td>
+
+              </tr>
+
+              <tr>
+                <td>10Sep2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/101">3 Days FDP on microcontroller TI (7-9 Dec 2017)</a>
+                </td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>08Aug2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/100">Campus Placement for Gupta Power Infrastructure</a>
+                </td>
+                <td style="text-transform:uppercase;">Events</td>
+
+              </tr>
+
+              <tr>
+                <td>03Aug2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/99">Branch Change for the session: 2017-18</a></td>
+                <td style="text-transform:uppercase;">noticecircular</td>
+
+              </tr>
+
+              <tr>
+                <td>24Jul2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/98">NOTICE FOR REPEATER STUDENT FOR THE SESSION 2017-18</a>
+                </td>
+                <td style="text-transform:uppercase;">noticecircular</td>
+
+              </tr>
+
+              <tr>
+                <td>31May2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/97">Fee Notice for current Students</a></td>
+                <td style="text-transform:uppercase;">noticecircular</td>
+
+              </tr>
+
+              <tr>
+                <td>15May2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/96">FDP on ANDROID Skill (15-10 May, 2017)</a></td>
+                <td style="text-transform:uppercase;">noticecircular</td>
+
+              </tr>
+
+              <tr>
+                <td>30Mar2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/95">5 Teams of MIET Groups of Institutions called for the
+                    final round Smart India Hackathon 2017</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>25Mar2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/94">MIETians Rock at Youth for Seva PPT Competition</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>24Feb2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/91">Ayesha Sharma (MBA 2016-18) & Ujjwal Sharma (CH 2013-17)
+                    Winners MMA Debate Competition, third time in a row.</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>24Feb2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/92">Himanshu Dhiman & Karan Singhal – National Champion (ME
+                    2013-17), aQuest Finale at ACREX 2017</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>23Feb2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/90">AKTU State Level Winners: Gold: 800 Meters Race – Gaurav
+                    Sehrawat (EE 2014-18); Shot Put – Priya Sharma (CS 2015-19) | Silver Medals: Football & Basketball
+                    (Girls)</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>13Feb2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/71">Regarding Aadhar Card for Students</a></td>
+                <td style="text-transform:uppercase;">noticecircular</td>
+
+              </tr>
+
+              <tr>
+                <td>13Feb2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/72">EVEN SEMESTER CARRY OVER FORM SESSION 2016-17</a></td>
+                <td style="text-transform:uppercase;">noticecircular</td>
+
+              </tr>
+
+              <tr>
+                <td>11Feb2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/89">AKTU Zonal Level Sports Competition: MIET teams rock at
+                    AKTU Zonal sports Competition held at RGEC, Meerut</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>09Feb2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/70">FREE RAILWAY MST ONLY GIRL STUDENTS</a></td>
+                <td style="text-transform:uppercase;">noticecircular</td>
+
+              </tr>
+
+              <tr>
+                <td>08Feb2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/68">AADHAR CARD IS COMPULSORY FOR STUDENTS</a></td>
+                <td style="text-transform:uppercase;">noticecircular</td>
+
+              </tr>
+
+              <tr>
+                <td>08Feb2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/69">REGULAR EXAM FORM OF SESSION 2016-17</a></td>
+                <td style="text-transform:uppercase;">noticecircular</td>
+
+              </tr>
+
+              <tr>
+                <td>26Jan2017</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/88">Himanshu Dhiman & Karan Singhal (ME 2013-17) – Winner
+                    Semifinals, aQuest Finale at ACREX 2017 enters into finals to be held on 24 February 2017</a></td>
+                <td style="text-transform:uppercase;">achievement</td>
+
+              </tr>
+
+              <tr>
+                <td>28Sep2016</td>
+
+                <td><a href="https://miet.ac.in/newsdetails/66">Unisys Cloud 20/20 Y8 is open for Registration now!</a>
+                </td>
+                <td style="text-transform:uppercase;">contest</td>
+
+              </tr>
+
+            </tbody>
+          </table>
+
+
+        </div>
+        <!--content-part-->
+
+
+      </div>
+      <!--wrapper-->
+    </div>
+    <!--row-->
+  </section>
+
+  <section>
+    <div class="footer">
+      <div class="wrapper">
+        <div class="widget">
+          <ul>
+            <li>
+              <a href="endura" target="_blank">Endura</a></li>
+            <li>
+              <!--<a href="glitz http://www.glitz.splashthat.com/" target="_blank">Glitz</a>--><a
+                href="http://www.glitz.splashthat.com/" target="_blank">Glitz</a></li>
+            <li>
+              <a href="Mobicom" target="_blank">Mobicom</a></li>
+            <li>
+              <!--<a href="RC17/" target="_blank">Robochamp</a>--><a href="http://robochampsmiet.com/"
+                target="_blank">Robochamp</a></li>
+            <li>
+              <a href="assets/uploads/poster-animation2015*.pdf" target="_blank">AniMiet</a></li>
+            <li>
+              <a href="https://miet.ac.in/gallerydetails/72" target="_blank">Rangotsav</a></li>
+            <li>
+              <a href="https://miet.ac.in/bestpractices.pdf" target="_blank">Institute Best Practice</a></li>
+          </ul>
+        </div>
+        <!--widget-->
+        <div class="widget">
+          <ul>
+            <li>
+              <a href="assets/Faculty-Code-and-Conduct-Roles-and-Responsibilities.pdf" target="_blank">Faculty Code of
+                Conduct</a></li>
+            <li>
+              <a href="operating-procedures">Operating Procedures</a></li>
+            <li>
+              <a href="assets/MIET_Code of conduct.pdf" target="_blank">MIET Code of Conduct</a></li>
+            <li>
+              <a href="assets/SC-ST-Cell.pdf" target="_blank">SC-ST cell</a></li>
+            <li>
+              <a href="anti-ragging-squad">Anti Ragging &amp; Squad</a></li>
+            <li>
+              <a href="assets/MIET-Grievence-Redressal-Cell.pdf" target="_blank">Grievance Redressal cell</a></li>
+            <li>
+              <a href="assets/Academic Calender  Student Even Sem 2019-20.pdf" target="_blank">Academic Calendar (Even
+                Sem 2019-20)<img src="../assets/newicon.gif" /></a></li>
+          </ul>
+        </div>
+        <!--widget-->
+        <div class="widget2">
+          <div class="foot-logo-bg">
+            <a href="#"><img alt="MIET" src="https://miet.ac.in/assets/frontend/images/logo-2.png" /></a></div>
+          <!--foot-logo-bg-->
+        </div>
+        <!--widget-->
+        <div class="widget">
+          <ul style="text-align:left; ">
+            <li>
+              <a href="http://www.kolaahal.com" target="_blank">Kolaahal</a></li>
+            <li>
+              <a href="#">Bus Transport</a></li>
+            <!--<li>
+					<a href="#/Mandatory_Disclosure_2019-20.pdf" target="_blank">Mandatory Disclosure</a></li>-->
+            <li>
+              <a href="assets/Final Mandatory Disclosure 2020-21.pdf" target="_blank">Mandatory Disclosure</a></li>
+            <li>
+              <a href="https://miet.ac.in/iqac">IQAC</a></li>
+            <li>
+              <a href="assets/Facilities-for-Divyangjan.pdf" target="_blank">Facilities for Divyangjan</a></li>
+            <li>
+              <a href="assets/Core-values.pdf" target="_blank">Core Values</a></li>
+            <li>
+              <a href="assets/Women_cell_2019.pdf" target="_blank">Women cell</a></li>
+          </ul>
+        </div>
+        <!--widget-->
+        <div class="widget widget3" style="border:none; float:right;">
+          <p>
+            <span><b style="color:#ea232a;font-weight: 100;">Meerut Institute of<br />
+                Engineering &amp; Technology</b></span><a href="https://goo.gl/maps/pWcvJWPxYujkzBuR8" target="_blank">
+              <strong style="color:#fff;">N.H. 58, Delhi-Roorkee Highway, Baghpat Road Bypass Crossing Meerut - 250005.
+                UP (India)</strong></a><strong> </strong> <strong> <b>Phone :</b> 0121-2439019/2439057</strong> <strong>
+              <b>Fax :</b> 0121-2439058</strong> <strong> <b>Email :</b> contact@miet.ac.in</strong></p>
+        </div>
+        <!--widget-->
+      </div>
+      <!--wrap-->
+    </div>
+    <!--footer-->
+    <div class="lower-footer-social">
+      <div class="wrap">
+        <!--social icon-->
+        <div class="social-icon-foot">
+          <!--social-icon-foot-->
+          <!--social icon-->
+          <!--
+<a href="https://www.facebook.com/MIETGROUP" target="_blank"><img src="https://webtestinglink.net/groupcollege/assets/frontend/images/facebook (2).png" /></a>-->
+          <!--<a href="https://twitter.com/mietmeerut" target="_blank"><img src="https://webtestinglink.net/groupcollege/assets/frontend/images/twitter-logo.png" /></a> -->
+          <!--<a href="https://www.youtube.com/channel/UCkoMkDAf-tTk23C9bGjLdrA" target="_blank">
+<img src="https://webtestinglink.net/groupcollege/assets/frontend/images/youtube-rounded-square-logo.png" /></a> 
+<a href="https://www.instagram.com/mietmeerut" target="_blank"><img src="https://webtestinglink.net/groupcollege/assets/frontend/images/instagram.png" /></a> 
+<a href="https://www.linkedin.com/authwall?trk=gf&amp;trkInfo=AQFeK5Wq-Iaq0AAAAWFQE13w4E_TxXAAmDam9XgEEZ1tP4BJtjXpKapFAvGW-qJG2lStmv-hdbmz9x5YHSk3df21zkAgdyL5dIHLlMqm3vT8j7dzwozP9l0fiVIgc2dp51DDy-o=&amp;originalReferer=&amp;sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fschool%2Fmietgroup%2F" target="_blank"><img src="https://webtestinglink.net/groupcollege/assets/frontend/images/linkedin.png" /></a>-->
+          <!---new----><a href="https://www.facebook.com/MIETGROUP" target="_blank"><img
+              src="https://miet.ac.in/assets/frontend/images/facebook (2).png" /></a>
+          <!--<a href="https://twitter.com/mietmeerut" target="_blank"><img src="https://miet.ac.in/assets/frontend/images/twitter-logo.png" /></a> --><a
+            href="https://www.youtube.com/channel/UCkoMkDAf-tTk23C9bGjLdrA" target="_blank"><img
+              src="https://miet.ac.in/assets/frontend/images/youtube-rounded-square-logo.png" /></a> <a
+            href="https://www.instagram.com/mietmeerut" target="_blank"><img
+              src="https://miet.ac.in/assets/frontend/images/instagram.png" /></a> <a
+            href="https://www.linkedin.com/authwall?trk=gf&amp;trkInfo=AQFeK5Wq-Iaq0AAAAWFQE13w4E_TxXAAmDam9XgEEZ1tP4BJtjXpKapFAvGW-qJG2lStmv-hdbmz9x5YHSk3df21zkAgdyL5dIHLlMqm3vT8j7dzwozP9l0fiVIgc2dp51DDy-o=&amp;originalReferer=&amp;sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fschool%2Fmietgroup%2F"
+            target="_blank"><img src="https://miet.ac.in/assets/frontend/images/linkedin.png" /></a></div>
+        <!--social-icon-foot-->
+        <!--social icon-->
+      </div>
+      <!--social-icon-foot-->
+      <!--social icon-->
+    </div>
+    <!--wrap-->
+    <!--lower-footer-social-->
+    <div class="lower-footer">
+      <div class="wrap">
+        <p>&copy;
+          <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.</p>
+      </div>
+      <!--wrap-->
+    </div>
+    <!--lower-footer-->
+
+    <!--end footer section-->
+    <!---Counter code-->
+    <center>
+      <img
+        src="https://hitwebcounter.com/counter/counter.php?page=6953915&style=0001&nbdigits=5&type=page&initCount=10000"
+        title="" Alt="" border="0" style="font-family: ; font-size: px; color: #; text-decoration:none;">
+    </center>
+  </section>
+  <!--Start of SuperBot Chat Script-->
+  <script type="text/javascript">
+    window.$superbot || (function (d, s) { var sb = $superbot = function (c) { sb._.push(c) }, $ = sb.s = d.createElement(s), e = d.getElementsByTagName(s)[0]; sb.set = function (o) { sb.set._.push(o) }; sb._ = []; sb.set._ = []; $.async = !0; $.setAttribute("charset", "utf-8"); $.src = "https://app.superbot.works/agent.js?a=zGygnzglnK&l=en"; sb.t = +new Date; $.type = "text/javascript"; e.parentNode.insertBefore($, e) })(document, "script");
+  </script>
+  <!--End of SuperBot Chat Script-->
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+
+<!--news event script-->
+<script src="https://miet.ac.in/assets/frontend/news-script/news-library-new.js"></script>
+
+<script src="https://miet.ac.in/assets/frontend/js/jquery.newsTicker.js"></script>
+<script>
+
+  var nt_example1 = $('#nt-example1').newsTicker({
+    row_height: 80,
+    max_rows: 3,
+    duration: 4000,
+    prevButton: $('#nt-example1-prev'),
+    nextButton: $('#nt-example1-next')
+  });
+
+
+  var nt_example1 = $('#nt-example2').newsTicker({
+    row_height: 80,
+    max_rows: 3,
+    duration: 4000,
+    prevButton: $('#nt-example1-prev'),
+    nextButton: $('#nt-example1-next')
+  });
+
+
+  var nt_example1 = $('#nt-example3').newsTicker({
+    row_height: 80,
+    max_rows: 3,
+    duration: 4000,
+    prevButton: $('#nt-example1-prev'),
+    nextButton: $('#nt-example1-next')
+  });
+
+
+</script>
+
+
+
+<!--news event close script-->
+
+
+<script src="https://miet.ac.in/assets/frontend/js/jquery-2.2.2.min.js"></script>
+<script>
+  $(function () { $("#content").click(function () { $("#content").hide(), $("#yt")[0].src += "?autoplay=1", setTimeout(function () { $("#yt").show() }, 0) }) });
+</script>
+
+<link rel='stylesheet' href='https://miet.ac.in/assets/frontendjs/aos.css' />
+
+<script src='https://miet.ac.in/assets/frontend/js/aos.js' defer="defer"></script>
+<script type="text/javascript" src="https://miet.ac.in/assets/frontend/js/main.js" defer="defer"></script>
+<!--page slide-->
+<script type="text/javascript">$(document).ready(function () {
+    function filterPath(string) {
+      return string
+        .replace(/^\//, '')
+        .replace(/(index|default).[a-zA-Z]{3,4}$/, '')
+        .replace(/\/$/, '');
+    }
+    $('a[href*=#]').each(function () {
+      if (filterPath(location.pathname) == filterPath(this.pathname)
+        && location.hostname == this.hostname
+        && this.hash.replace(/#/, '')) {
+        var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) + ']');
+        var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+        if ($target) {
+          var targetOffset = $target.offset().top - 50;
+          $(this).click(function () {
+            $('html, body').animate({ scrollTop: targetOffset }, 1000);
+            return false;
+          });
+        }
+      }
+    });
+  });
+</script>
+
+<script src="https://miet.ac.in/assets/frontend/js/SmoothScroll.min.js"></script>
+<script src="https://miet.ac.in/assets/frontend/js/jarallax.js"></script>
+<script src="https://miet.ac.in/assets/frontend/js/main-scroll.js"></script>
+<!--end scroll neww-->
+
+
+<script src="https://miet.ac.in/assets/frontend/js/jquery.min.js"></script>
+<script src="https://miet.ac.in/assets/frontend/js/jquery.mobile.touchsupport.js"></script>
+<script src="https://miet.ac.in/assets/frontend/js/jquery.phoenix.js"></script>
+<script src="https://miet.ac.in/assets/frontend/js/main-2.js"></script>
+
+<script src="https://miet.ac.in/assets/frontend/js/carouseller.js"></script>
+<script src="https://miet.ac.in/assets/frontend/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript">
+  $(function () {
+    $('#third').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 5000,
+      easing: 'linear'
+    });
+
+    $('#bt1').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 4000,
+      easing: 'linear'
+    });
+
+    $('#bt2').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 4000,
+      easing: 'linear'
+    });
+
+    $('#bt3').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 4000,
+      easing: 'linear'
+    });
+
+    $('#bt4').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 4000,
+      easing: 'linear'
+    });
+
+
+    $('#bt5').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 4000,
+      easing: 'linear'
+    });
+
+    $('#bt6').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 4000,
+      easing: 'linear'
+    });
+
+    $('#bt7').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 4000,
+      easing: 'linear'
+    });
+
+    $('#bt8').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 4000,
+      easing: 'linear'
+    });
+
+    $('#bt9').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 4000,
+      easing: 'linear'
+    });
+
+    $('#bt10').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 4000,
+      easing: 'linear'
+    });
+
+    $('#bt11').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 4000,
+      easing: 'linear'
+    });
+
+    $('#bt12').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 4000,
+      easing: 'linear'
+    });
+
+    $('#bt13').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 5000,
+      easing: 'linear'
+    });
+
+    $('#bt14').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 4000,
+      easing: 'linear'
+    });
+
+    $('#bt15').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 4000,
+      easing: 'linear'
+    });
+
+    $('#bt16').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 4000,
+      easing: 'linear'
+    });
+
+
+
+
+
+  });
+
+</script>
+
+<script src="https://miet.ac.in/assets/frontend/js/jquery.mobile-menu.min.js"></script>
+<script>
+
+  jQuery(document).ready(function ($) {
+    $("#cancel-menu").hide();
+
+    $("#mobile-menu").mobileMenu({
+      MenuWidth: 250,
+      SlideSpeed: 300,
+      WindowsMaxWidth: 767,
+      PagePush: true,
+      FromRight: true,
+      Overlay: true,
+      CollapseMenu: true,
+      ClassName: "mobile-menu"
+    });
+
+    $("#show-menu").click(function () {
+
+      $(this).hide();
+      $("#cancel-menu").show();
+    });
+
+    $("#cancel-menu").click(function () {
+
+      $(this).hide();
+      $("#show-menu").show();
+    });
+
+  });
+
+</script>
+
+
+<script type="text/javascript">
+  $(function () {
+    $('#third2').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 5000,
+      easing: 'linear'
+    });
+
+
+
+  });
+
+</script>
+
+<script type="text/javascript">
+  $(function () {
+    $('#fourth').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 5000,
+      easing: 'linear'
+    });
+  });
+
+
+</script>
+
+
+
+<script type="text/javascript">
+  $(function () {
+    $('#fifth').carouseller({
+      scrollSpeed: 800,
+      autoScrollDelay: 5000,
+      easing: 'linear'
+    });
+  });
+
+
+</script>
+
+
+<script type="text/javascript" src="https://miet.ac.in/assets/frontend/js/jquery.flexisel.js"></script>
+<script type="text/javascript">
+
+  $(window).load(function () {
+    $("#flexiselDemo1").flexisel();
+    $("#flexiselDemo2").flexisel({
+      enableResponsiveBreakpoints: true,
+      responsiveBreakpoints: {
+        portrait: {
+          changePoint: 480,
+          visibleItems: 1
+        },
+        landscape: {
+          changePoint: 640,
+          visibleItems: 2
+        },
+        tablet: {
+          changePoint: 768,
+          visibleItems: 3
+        }
+      }
+    });
+
+    $("#flexiselDemo3").flexisel({
+      visibleItems: 5,
+      animationSpeed: 1000,
+      autoPlay: true,
+      autoPlaySpeed: 3000,
+      pauseOnHover: true,
+      enableResponsiveBreakpoints: true,
+      responsiveBreakpoints: {
+        portrait: {
+          changePoint: 480,
+          visibleItems: 1
+        },
+        landscape: {
+          changePoint: 640,
+          visibleItems: 2
+        },
+        tablet: {
+          changePoint: 768,
+          visibleItems: 3
+        }
+      }
+    });
+
+
+
+
+
+    $("#flexiselDemo6").flexisel({
+      visibleItems: 5,
+      animationSpeed: 1000,
+      autoPlay: true,
+      autoPlaySpeed: 3000,
+      pauseOnHover: true,
+      enableResponsiveBreakpoints: true,
+      responsiveBreakpoints: {
+        portrait: {
+          changePoint: 480,
+          visibleItems: 1
+        },
+        landscape: {
+          changePoint: 640,
+          visibleItems: 2
+        },
+        tablet: {
+          changePoint: 768,
+          visibleItems: 3
+        }
+      }
+    });
+
+
+
+
+
+    $("#flexiselDemo4").flexisel({
+      clone: false
+    });
+
+  });
+</script>
+
+<link rel="stylesheet" href="https://miet.ac.in/assets/frontend/js/lightGallery.css" />
+<script src="https://miet.ac.in/assets/frontend/js/lightGallery.js" type="text/javascript"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("#light-gallery").lightGallery();
+  });
+</script>
+
+
+<script>
+  $(window).load(function () { $(function () { var url = window.location.href; $(".sidebar ul li a").each(function () { if (url == (this.href)) { $(this).closest(".sidebar ul li a").addClass("activelink"); } }); }); });
+
+</script>
+
+
+<!--popup javascript-->
+
+<link href="https://miet.ac.in/assets/frontend/popup/component.css" rel="stylesheet">
+<script src="https://miet.ac.in/assets/frontend/popup/classie.js"></script>
+<script src="https://miet.ac.in/assets/frontend/popup/modalEffects.js"></script>
+
+<!--end popup script-->
+
+
+<style>
+  .news-points-text-wrap {
+    width: 100%;
+  }
+
+  .news-full-wrap {
+    background: #ea232a;
+    height: auto;
+  }
+
+  .TabbedPanelsTabGroup {
+
+    margin-top: 0px;
+  }
+
+  .arrow-div {
+    float: left;
+    margin: 15px 0px;
+    cursor: pointer;
+    z-index: 999;
+    position: relative;
+  }
+
+  .all-btn {
+    float: right;
+    margin: 15px 0px;
+  }
+
+  .news-points-text-wrap p {
+
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .news-points-text-wrap span {
+    font-size: 16px;
+    color: #ea232a;
+    font-weight: 600;
+  }
+</style>
+
+
+
+<script type='text/javascript'>
+  $(function () {
+    var overlay = $('<div id="overlay"></div>');
+    overlay.show();
+    overlay.appendTo(document.body);
+    $('.popup1').show();
+    $('.close').click(function () {
+      $('.popup1').hide();
+      overlay.appendTo(document.body).remove();
+      return false;
+    });
+
+    $('.x').click(function () {
+      $('.popup1').hide();
+      overlay.appendTo(document.body).remove();
+      return false;
+    });
+  });
+</script>
+
+
+<!--popup-->
+
+
+</html>
